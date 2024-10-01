@@ -1,0 +1,110 @@
+.header-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 5rem;
+}
+
+.titlehead {
+    font-size: 3rem;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+#main-logo {
+    background-image: url("../img/images.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    max-width: 100%;
+}
+
+.flex-menu {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap; 
+    gap: 1rem; 
+    padding: 0; 
+    margin: 0; 
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 1rem;
+}
+
+.flex-menu a {
+    text-decoration: none; 
+    color: #000; 
+}
+
+.flex-menu a:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+
+footer {
+    background-color: #000;
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    min-width: 400px;
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    display: contents;
+}
+
+article {
+    min-width: 300px;
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 10px 10px 10px;
+    padding: 1rem;
+
+    gap: 0px;
+
+}
+
+h2 {
+    text-align: left;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 1rem;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 60px;
+    width: 30%;
+    min-width: 350px;
+    flex: 1;
+    padding: 1rem;
+}
+
+#article-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
