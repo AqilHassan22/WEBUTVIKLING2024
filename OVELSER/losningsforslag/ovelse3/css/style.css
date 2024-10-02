@@ -1,3 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;   
+}
+
+header, nav, footer{
+    width: 100%;
+}
+
 .header-container {
     position: relative;
     text-align: center;
@@ -19,7 +33,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    height: 50%;
     max-width: 100%;
 }
 
@@ -43,14 +57,68 @@
 
 .flex-menu a:hover {
     text-decoration: underline;
-    color: yellow;
+    color: rgb(12, 85, 255);
+}
+
+header, nav, main, aside, footer{
+    flex-grow: 1;
+    padding: 1rem;
+}
+
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    min-width: 500px;
+    justify-content: space-between;
+}
+
+main article{
+    width: 30%;
+    min-width: 250px;
+    flex-grow: 1;
+    box-shadow: 5px 5px 5px
+}
+
+h2 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+
+.article-title {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 0.5rem;
+}
+
+main a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+main a:hover{
+    color: rgb(12, 85, 255);
+    text-decoration: underline;
+}
+
+.google-semantikk {
+    background-color: #000;
+    color: white;
+    padding: 0.5rem;
+}
+
+aside{
+    width: 30%;
 }
 
 footer {
     background-color: #000;
     width: 100%;
     padding: 2rem;
-    text-align: center;
+    text-align: left;
 }
 
 footer a {
@@ -58,76 +126,12 @@ footer a {
     color: white;
 }
 
-main {
-    min-width: 400px;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    flex-wrap: nowrap;
-    padding: 20px;
-    display: contents;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 20px;
-}
-
-article {
-    min-width: 300px;
-    max-width: 400px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    box-shadow: 10px 10px 10px;
-    padding: 1rem;
-    gap: 20px;
-
-}
-
-h2 {
-    text-align: left;
-}
-
-section {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    padding: 1rem;
-}
-
-aside {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: flex-end;
-    flex-wrap: nowrap;
-    order: 3;
-    flex-basis: 60px;
-    width: 30%;
-    min-width: 350px;
-    flex: 1;
-    padding: 1rem;
-    unicode-bidi: isolate;
-}
-
-.article-title {
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-
-}
-
-#aside1, #aside2 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-#aside2 {
-    background-color: black;
+footer a:hover {
+    text-decoration: underline;
     color: white;
 }
 
-article, aside, footer, header, main, section {
-    box-sizing: border-box;
+footer p {
+    text-decoration: none;
+    color: white;
 }

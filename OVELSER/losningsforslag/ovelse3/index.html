@@ -7,35 +7,35 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header id="main-logo">
-        <section class="header-container">
-            <h1 class="titlehead">Løsningsforslag: Øvelse 3</h1> <!-- Hovedoverskriften på siden som introduserer innholdet -->
+    <div id="container">
+        <header id="main-logo">
+            <section class="header-container">
+                <h1 class="titlehead">Løsningsforslag: Øvelse 3</h1> <!-- Hovedoverskriften på siden som introduserer innholdet -->
         </section>
-    </header>
-    <nav id="navbar">
-        <!-- Navigasjonsmeny med lenker til andre sider -->
-        <ul class="flex-menu">
-            <li><a href="index.html">Hjem</a></li> <!-- Lenke til hjemmesiden -->
-            <li><a href="validering.html">Valideringsoppgave</a></li> <!-- Lenke til valideringsoppgaven -->
-            <li><a href="oppskrift.html">Lister: Oppskrift</a></li>
-            <li><a href="mal.html">Mal</a></li> <!-- Lenke til en mal-side -->
-            <li><a href="#">Kontakt oss</a></li> <!-- Placeholder-lenke som går ingensteds -->
-        </ul>
-    </nav>
+        </header>
+        <nav id="navbar">
+            <!-- Navigasjonsmeny med lenker til andre sider -->
+            <ul class="flex-menu">
+                <li><a href="index.html">Hjem</a></li> <!-- Lenke til hjemmesiden -->
+                <li><a href="validering.html">Valideringsoppgave</a></li> <!-- Lenke til valideringsoppgaven -->
+                <li><a href="oppskrift.html">Lister: Oppskrift</a></li>
+                <li><a href="mal.html">Mal</a></li> <!-- Lenke til en mal-side -->
+                <li><a href="#">Kontakt oss</a></li> <!-- Placeholder-lenke som går ingensteds -->
+            </ul>
+        </nav>
 
-    <main>
-        <div id="container">
+        <main>
             <!-- Hovedinnholdet på siden -->
             <h2>Artikler</h2> <!-- En seksjon for artikler med en overskrift på nivå 2 -->
             <section class="article-title">
                 <article>
-                    <h3>Validering</h3> <!-- Første artikkel med tittel om validering -->
+                    <h3><a href="validering.html">Validering</a></h3> <!-- Første artikkel med tittel om validering -->
                 </article>
                 <article>
-                    <h3>Kontakt oss</h3> <!-- Andre artikkel med tittel om kontaktinformasjon -->
+                    <h3><a href="#">Kontakt oss</a></h3> <!-- Andre artikkel med tittel om kontaktinformasjon -->
                 </article>
                 <article>
-                    <h3>Studieplan</h3> <!-- Tredje artikkel med tittel om studieplan -->
+                    <h3><a href="#">Studieplan</a></h3> <!-- Tredje artikkel med tittel om studieplan -->
                 </article>
             </section>
         </main>
@@ -43,7 +43,7 @@
         <aside>
             <!-- Innhold som er sekundært i forhold til hovedinnholdet -->
             <h4>Semantisk HTML</h4> <!-- En seksjon med informasjon om semantisk HTML -->
-            <section id="aside1">
+            <section id="kilder-semht">
                 <nav>
                     <!-- En liste over eksterne ressurser om semantisk HTML -->
                     <ul>
@@ -66,18 +66,18 @@
                 </nav>
             </section>
 
-            <section id="aside2">
+            <section id="googletikk">
                 <h4>Google resultater</h4> <!-- Seksjon som viser relevante Google-resultater -->
-                <a href="https://www.google.com/search?q=smantic+html&sca_esv=8d08fdb92d3dc4d4&sca_upv=1&source=hp&ei=inzyZo_KA6fEwPAPgdeR8AY&iflsig=AL9hbdgAAAAAZvKKmuDrynpYuEW9ivjfYYO4CC6NCqw7&ved=0ahUKEwiPt8bmmNuIAxUnIhAIHYFrBG4Q4dUDCA4&uact=5&oq=smantic+html&gs_lp=Egdnd3Mtd2l6IgxzbWFudGljIGh0bWwyBxAAGIAEGA0yBxAAGIAEGA0yBxAAGIAEGA0yBxAAGIAEGA0yBxAAGIAEGA0yBxAAGIAEGA0yBxAAGIAEGA0yBxAAGIAEGA0yBxAAGIAEGA1IviRQAFjLH3ADeACQAQCYAWWgAa0JqgEEMTQuMbgBA8gBAPgBAZgCEqACiArCAg4QABiABBixAxiDARiKBcICCBAAGIAEGLEDwgIREC4YgAQYsQMY0QMYgwEYxwHCAgUQABiABMICCxAuGIAEGNEDGMcBwgILEAAYgAQYsQMYgwHCAgoQABiABBhDGIoFwgIFEC4YgATCAhAQABiABBixAxhDGIMBGIoFwgIEEAAYA8ICCxAAGIAEGLEDGIoFwgILEC4YgAQYsQMYgwHCAgsQLhiABBjHARivAcICDhAuGIAEGLEDGNEDGMcBwgINEC4YgAQY0QMYxwEYCsICDRAuGIAEGLEDGIMBGArCAgcQLhiABBgKwgIKEC4YgAQYsQMYCsICBxAAGIAEGArCAhAQLhiABBixAxiDARjUAhgKwgIQEC4YgAQYsQMYgwEYigUYCsICDRAAGIAEGLEDGIMBGArCAgcQLhiABBgNmAMAkgcEMTYuMqAH45cB&sclient=gws-wiz">Se hva google fant om semantisk HTML5</a> <!-- Lenke til et Google-søk om semantisk HTML -->
+                <a class="google-semantikk" href="https://www.google.com/search?q=smantic+html&sca_esv=8d08fdb92d3dc4d4&sca_upv=1&source=hp&ei=inzyZo_KA6fEwPAPgdeR8AY&iflsig=AL9hbdgAAAAAZvKKmuDrynpYuEW9ivjfYYO4CC6NCqw7&ved=0ahUKEwiPt8bmmNuIAxUnIhAIHYFrBG4Q4dUDCA4&uact=5&oq=smantic+html&gs_lp=Egdnd3Mtd2l6IgxzbWFudGljIGh0bWwyBxAAGIAEGA0yBxAAGIAEGA0yBxAAGIAEGA0yBxAAGIAEGA0yBxAAGIAEGA0yBxAAGIAEGA0yBxAAGIAEGA0yBxAAGIAEGA0yBxAAGIAEGA1IviRQAFjLH3ADeACQAQCYAWWgAa0JqgEEMTQuMbgBA8gBAPgBAZgCEqACiArCAg4QABiABBixAxiDARiKBcICCBAAGIAEGLEDwgIREC4YgAQYsQMY0QMYgwEYxwHCAgUQABiABMICCxAuGIAEGNEDGMcBwgILEAAYgAQYsQMYgwHCAgoQABiABBhDGIoFwgIFEC4YgATCAhAQABiABBixAxhDGIMBGIoFwgIEEAAYA8ICCxAAGIAEGLEDGIoFwgILEC4YgAQYsQMYgwHCAgsQLhiABBjHARivAcICDhAuGIAEGLEDGNEDGMcBwgINEC4YgAQY0QMYxwEYCsICDRAuGIAEGLEDGIMBGArCAgcQLhiABBgKwgIKEC4YgAQYsQMYCsICBxAAGIAEGArCAhAQLhiABBixAxiDARjUAhgKwgIQEC4YgAQYsQMYgwEYigUYCsICDRAAGIAEGLEDGIMBGArCAgcQLhiABBgNmAMAkgcEMTYuMqAH45cB&sclient=gws-wiz">Se hva google fant om semantisk HTML5</a> <!-- Lenke til et Google-søk om semantisk HTML -->
             </section>
 
-        </aside>
+            </aside>
 
-        <footer>
-            <!-- Sidefoten med kontaktinformasjon -->
-            <p>Ann-Charlott Karlsen</p> <!-- Navn på personen som laget nettsiden -->
-            <p><a href="mailto:ackarlse@hiof.no">ackarlse@hiof.no</a></p> <!-- Lenke til e-postadresse for kontakt -->
-        </footer>
-    </div>
+            <footer>
+                <!-- Sidefoten med kontaktinformasjon -->
+                <p>Ann-Charlott Karlsen</p> <!-- Navn på personen som laget nettsiden -->
+                <p><a href="mailto:ackarlse@hiof.no">ackarlse@hiof.no</a></p> <!-- Lenke til e-postadresse for kontakt -->
+            </footer>
+        </div>
 </body>
 </html>
