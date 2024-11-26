@@ -1,0 +1,9 @@
+.border-frame {
+    width: 90%; /* Adjust as needed to fit the layout */
+    margin: 20px auto; /* Center the frame horizontally and add spacing at the top */
+    padding: 20px; /* Add inner padding for spacing inside the frame */
+    border: 5px solid #ccc; /* Set the border color and thickness */
+    border-radius: 25px; /* Add rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for depth */
+    background-color: #fff; /* Optional: Set a background color inside the frame */
+}
